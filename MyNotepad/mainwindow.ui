@@ -50,7 +50,7 @@
     <property name="title">
      <string>Help</string>
     </property>
-    <addaction name="actionAbout"/>
+    <addaction name="actionAbout_MyNotepad"/>
     <addaction name="actionAbout_Qt"/>
    </widget>
    <addaction name="menuFile"/>
@@ -59,46 +59,80 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/cancel-icon.png</normaloff>:/images/cancel-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Quit</string>
    </property>
   </action>
   <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/copy-icon.png</normaloff>:/images/copy-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Copy</string>
    </property>
   </action>
   <action name="actionCut">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/cut-icon.png</normaloff>:/images/cut-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Cut</string>
    </property>
   </action>
   <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/paste-icon.png</normaloff>:/images/paste-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Paste</string>
    </property>
   </action>
   <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/Arrows-Undo-icon.png</normaloff>:/images/Arrows-Undo-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Undo</string>
    </property>
   </action>
   <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/Arrows-Redo-icon.png</normaloff>:/images/Arrows-Redo-icon.png</iconset>
+   </property>
    <property name="text">
     <string>Redo</string>
    </property>
   </action>
-  <action name="actionAbout">
+  <action name="actionAbout_MyNotepad">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/dialog-information-icon.png</normaloff>:/images/dialog-information-icon.png</iconset>
+   </property>
    <property name="text">
     <string>About MyNotepad</string>
    </property>
   </action>
   <action name="actionAbout_Qt">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/dialog-information-icon-qt.png</normaloff>:/images/dialog-information-icon-qt.png</iconset>
+   </property>
    <property name="text">
     <string>About Qt</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
  <connections/>
 </ui>
