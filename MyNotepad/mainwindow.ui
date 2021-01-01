@@ -77,8 +77,8 @@
    <addaction name="actionUndo"/>
    <addaction name="actionRedo"/>
    <addaction name="separator"/>
-   <addaction name="actionAbout_Qt"/>
    <addaction name="actionAbout_MyNotepad"/>
+   <addaction name="actionAbout_Qt"/>
   </widget>
   <action name="actionQuit">
    <property name="icon">
